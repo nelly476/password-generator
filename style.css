@@ -69,3 +69,8 @@ header p {
   filter: invert(89%) sepia(6%) saturate(434%) hue-rotate(172deg)
     brightness(95%) contrast(93%);
 }
+
+.set-length-section {
+  margin-top: 1.5rem;
+  padding-left: 4px;
+}
