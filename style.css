@@ -45,18 +45,16 @@ header p {
   padding-top: 2rem;
 }
 
-.password {
-  width: 9.5rem;
-  height: 1rem;
-  background-color: rgba(47, 62, 83, 0.64);
-  border-radius: 8px;
-  padding: 7px 12px;
-  font-weight: bold;
-}
-
 .password-text {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 11rem;
+  height: 1rem;
+  background-color: rgba(47, 62, 83, 0.64);
+  border-radius: 8px;
+  padding: 7px 0.5rem;
+  font-weight: bold;
 }
 
 .password-text img {
