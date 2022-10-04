@@ -99,7 +99,6 @@ let length = document.querySelector("#length");
 function generatePassword() {
   passwordOne = [];
   passwordTwo = [];
-
   for (let i = 0; i < length.value; i++) {
     let randomIndexOne = Math.floor(Math.random() * characters.length);
     passwordOne += characters[randomIndexOne];
