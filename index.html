@@ -19,13 +19,14 @@
         <p>Never use an insecure password again.</p>
       </header>
       <div class="set-length-section">
+        <div>
         <label for="length">Set the length</label>
         <input type="number" id="length" name="length" min="1" max="15" />
       </div>
+    </div>
       <div class="button-section">
-        <button class="btn" onclick="generatePassword()">
-          Generate password
-        </button>
+        <input type="submit" class="btn" value="Generate password" onclick="generatePassword()">
+        </input>
       </div>
       <div class="password-section">
         <div class="password-text">
