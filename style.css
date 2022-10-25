@@ -74,3 +74,12 @@ header p {
   margin-top: 1.5rem;
   padding-left: 4px;
 }
+
+@media (min-width: 414px) {
+  body {
+    max-width: 100vh;
+  }
+  .container {
+    width: 93%;
+  }
+}
